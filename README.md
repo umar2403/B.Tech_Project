@@ -27,7 +27,7 @@ This repository contains the implementation and experiments for applying **Q-Lea
   - Action space: \( A = \{0, 1,...., p-1\} \)  
   - Transition dynamics:  
     \[
-    s_{t+1} = (s_t + a_t + n_t) \mod p
+    s_{t+1} = (s_t + a_t + n_t)mod p
     \]  
     where noise \( n_t \) is uniformly sampled.  
   - Reward function:  
@@ -45,7 +45,7 @@ This repository contains the implementation and experiments for applying **Q-Lea
 
 | Algorithm | Runtime (s) | Convergence (iterations) | RMS Error |
 |-----------|-------------|---------------------------|-----------|
-| Vanilla Q-Learning | 2137 | \(1 \times 10^8\) | 6000 |
-| Q-Learning + Robbins-Monro | 996 | \(5 \times 10^7\) | 199 |
-| Function Approximation (Constant α) | 1115 | \(5 \times 10^7\) | 6000 |
-| Function Approximation (Robbins-Monro α) | 570 | \(3 \times 10^7\) | 1673 |
+| Vanilla Q-Learning | 2137 | (1/10^8) | 6000 |
+| Q-Learning + Robbins-Monro | 996 | (5/10^7\) | 199 |
+| Function Approximation (Constant α) | 1115 | \(5/10^7\) | 6000 |
+| Function Approximation (Robbins-Monro α) | 570 | \(3/10^7\) | 1673 |
