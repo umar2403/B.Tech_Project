@@ -23,8 +23,8 @@ This repository contains the implementation and experiments for applying **Q-Lea
 ## ⚙️ Implementation Details
 - **Language:** MATLAB  
 - **Environment Setup:**
-  - State space: \( S = \{0, 1, \dots, p-1\} \), with \( p = 100 \)  
-  - Action space: \( A = \{0, 1, \dots, p-1\} \)  
+  - State space: \( S = \{0, 1,...., p-1\} \), with \( p = 100 \)  
+  - Action space: \( A = \{0, 1,...., p-1\} \)  
   - Transition dynamics:  
     \[
     s_{t+1} = (s_t + a_t + n_t) \mod p
@@ -32,7 +32,7 @@ This repository contains the implementation and experiments for applying **Q-Lea
     where noise \( n_t \) is uniformly sampled.  
   - Reward function:  
     \[
-    R(s, a) = s \cdot a
+    R(s, a) = s.a
     \]  
 - **Exploration Strategy:** ε-greedy policy  
 - **Discount Factor:** γ = 0.9  
