@@ -49,3 +49,13 @@ This repository contains the implementation and experiments for applying **Q-Lea
 | Q-Learning + Robbins-Monro | 996 | (5/10^7\) | 199 |
 | Function Approximation (Constant α) | 1115 | \(5/10^7\) | 6000 |
 | Function Approximation (Robbins-Monro α) | 570 | \(3/10^7\) | 1673 |
+
+## 🚀 How to Run
+1. Download the file Q_function_approximation_polynomial.mlx from this repo.
+2. Open the file inMATLAB.
+3. To run with constant learning rate:
+   - Set the value of alpha in the code (e.g., alpha = 0.001).
+4. To run with Robbins-Monro learning rate:
+   -Locate the two lines in the code that are commented for Robbins-Monro.
+   -Uncomment those lines and run the script and set alpha = 1.
+5. Execute the .mlx file to start the experiment and observe the results (MSE vs iterations, runtime, convergence).
