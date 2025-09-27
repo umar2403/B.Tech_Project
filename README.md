@@ -56,6 +56,6 @@ This repository contains the implementation and experiments for applying **Q-Lea
 3. To run with constant learning rate:
    - Set the value of alpha in the code (e.g., alpha = 0.001).
 4. To run with Robbins-Monro learning rate:
-   -Locate the two lines in the code that are commented for Robbins-Monro.
-   -Uncomment those lines and run the script and set alpha = 1.
+   - Locate the two lines in the code that are commented for Robbins-Monro.
+   - Uncomment those lines and run the script and set alpha = 1.
 5. Execute the .mlx file to start the experiment and observe the results (MSE vs iterations, runtime, convergence).
